@@ -14,3 +14,10 @@ body{
     float: none;
     text-align: left;
 }
+.Answer{
+    width:70%;
+    border-radius:5px;
+    height:30px;
+    border-color: gray;
+}
+
