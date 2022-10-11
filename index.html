@@ -1,35 +1,33 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Math quiz login</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js" type="text/javascript"></script>
-  </head>
-  <body>
-    <center>
-    <div class="center">
-      <h1>Login</h1>
-      <form method="post">
-        <div class="txt_field">
-          <input type="text" required>
-          <label>Player1</label>
-        </div>
-      </form>
-<br<br>
-      <form method="post">
-        <div class="txt_field">
-          <input type="text" required>
-          <span></span>
-          <label>Player2</label>
-        </div>
-      </form>
-    </div>
-<br><br>
-<div>
-<button id="Login" type="button" onclick="login()">LOGIN</button>
-</div>
+<html>
+<head>
+	<title>The Math Quiz-1</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css" href="game.css">
+<script src="game_login.js"></script>
+</head>
+<body>
+<center>
+	<h1>WELCOME TO THE MATH QUIZ GAME!!</h1>
+	<img src="http://www.mtsac.edu/lac/images/templogo_math.png" style="width: 60px;">
+	<br>
+	<br>
+	<div class="col-lg-4 col-sm-8 col-xs-11 login_div1">
+		<h3>Player 1 Login</h3>
+		<label id="username">User Name:</label>
+		<input type="text" id="player1_name" class="form-control" placeholder="Player 1 Name">
+	</div>
+	<br>
+	<div class="col-lg-4 col-sm-8 col-xs-11 login_div2">
+		<h3>Player 2 Login</h3>
+		<label id="username">User Name:</label>
+		<input type="text" id="player2_name" class="form-control" placeholder="Player 2 Name">
+	</div>
+	<br>
+	<button style="width: 20%; background-color: aquamarine; color: black; font-weight: bold; border-radius: 5px;" class="btn btn-link" onclick="adduser()">Log In</button>
 </center>
-<script src="main.js"></script>
-  </body>
+</body>
 </html>
