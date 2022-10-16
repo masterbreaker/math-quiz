@@ -1,6 +1,6 @@
 body
 {
-	background-color: #AA4465;
+	background-image: url("https://i.pinimg.com/originals/2f/cf/7e/2fcf7e1c3e57d993a11f90046a3c9fa6.jpg");
 }
 
 	.login_div1 , .login_div2
@@ -11,7 +11,7 @@ body
 		border-radius: 15px;
 		width: 30%;
 		height: 150px;
-		background-color: rgb(243, 35, 80);
+		background-color: wheat;
 	}
 
 
@@ -32,38 +32,39 @@ body
 }
 #output
 {
-	background: white;
+	background: rgb(255, 255, 255);
 	border-radius: 10px;
-	border-top: 10px solid #AA4465;
+	border-top: 10px solid #ff0051;
 	padding: 10px;
 	float: none;
 	text-align: left;
 }
 h1{
 	color: rgb(255, 255, 255);
-	font-family:monospace;
+	font-family: 'Akaya Kanadaka', cursive;
 }
 h3{
 	font-family: 'Lora', serif;
-	color: rgb(255, 255, 255);
+	color: teal;
 }
 #username{
 	font-family: 'Yellowtail', cursive;
-	color: rgb(255, 255, 255);
+	color: turquoise;
 }
 button{
 	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 #number_1,#number_2
 {
-	color: rgb(255, 255, 255);
+	color: rgb(0, 0, 0);
 	font-weight: bold;
 }
 h4{
-	color: rgb(255, 255, 255);
+	color: bisque;
 	font-family: 'Akaya Kanadaka', cursive;
 	width: 100px;
 }
-h4:hover{
-	text-decoration: underline;
+#player_1_name, #player_2_name{
+	display: inline-block;
+	margin-left: 3px;
 }
